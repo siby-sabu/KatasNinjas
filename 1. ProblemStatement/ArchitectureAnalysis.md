@@ -16,3 +16,15 @@ Apart from the above characteristics , the architecture would also have the belo
 - Maintainability
 - Authentication and Authorization
 
+## Architectural Quanta
+We have identified the following Quanta and corresponsing architecture characteristics:
+
+|Quanta|Consideration|Architecture Characteristics|
+|------|-------------|----------------------------|
+|Security|Patient admission for medical care|Authorization, Authentication|
+|Sensor Recognition|Reading patient's vital sensor data and persisting the data for further manipulation|Fault Tolerance, Data Integrity, Scalability|
+|Analytics|Encompasses providing an interface for medical staff to analyze recorded data|Availability, Data Integrity, Fault Tolerance, Performance|
+|Monitoring|Must analyze each patient's vital data and provide consolidated view|Availability, Performance|
+|Notification Service|Must analyze patient data based on certain rules, and alert medical professional in case of any issue| Workflow, Performance, Authorization, |
+|Snapshot Data Upload|Generate holistic patient vital sign snapshots for uploading to MyMedicalData|Integrity|
+
