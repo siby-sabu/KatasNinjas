@@ -13,4 +13,4 @@ The key architecture characteristics identified are as follows:
 ## Architecture Capabilities Comparision
 The above characteristics in bold are used to compare betwen different architecture patterns
 
-![Comparision of Architecture](../../assets/docs/compare.png)
+![Comparision of Architecture](../assets/compare.png)
