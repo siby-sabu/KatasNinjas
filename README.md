@@ -10,14 +10,16 @@ Welcome to the O'Reilly Architectural Katas 2024 submission. This is an architec
 
 ## Solution Structure
 
-[Clarifications](Clarifiactions.md)
-
-[Glossary](Glossary.md)
-
 1. [Problem Statement](./1.%20ProblemStatement/)
 2. [Solution and Approach](./2.%20SolutionAndApproach/)
 3. [Views and Perspectives](./3.%20ViewsAndPerspectives/)
 4. [Architecture Decision Records](./4.%20ADR/)
+
+### Additional Data
+
+[Clarifications](Clarifications.md)
+
+[Glossary](Glossary.md)
 
 ## Resources <a href='#' id='resources'></a>
 
@@ -26,4 +28,3 @@ Welcome to the O'Reilly Architectural Katas 2024 submission. This is an architec
 ## References
 
 - https://learning.oreilly.com/library/view/head-first-software/9781098134341/
----
