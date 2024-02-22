@@ -16,3 +16,9 @@
 &nbsp;
 
 <img src="../../assets/images/Scenario-HealthRecord.svg" width="1500"/>
+
+## 02. Consolidated Health Record Monitoring at Nurse Station
+
+1. This scenario explains the flow of consolidated data of patient's vital records fetched from sensors to each nurse station.
+
+<img src="../../assets/images/scenario3.jpeg" width="1500"/>

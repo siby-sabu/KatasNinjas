@@ -21,19 +21,19 @@ From Above matrix we have shortlisted the below architectures for MonitorMe appl
 
 ### Event Driven Architecture 
 
- Fault Tolerance, Modularity, Performance and Scalability score highly, which makes it ideal for data analysis and data propagation scenarios. 
+- Fault Tolerance, Modularity, Performance and Scalability score highly, which makes it ideal for data analysis and data propagation scenarios. 
 
-Workflow scores highly, important for sending notification details to medical staff. 
+- Workflow scores highly, important for sending notification details to medical staff. 
 
-Interoperability and Integration has middling score. 
+- Interoperability and Integration has middling score. 
 
 ### Service Based Architecture 
 
-Scores highly on Modularity, Fault-Tolerance and Testability, all three important to development of a new system and data manipulation and data analysis. 
+- Scores highly on Modularity, Fault-Tolerance and Testability, all three important to development of a new system and data manipulation and data analysis. 
 
-Although it apparently scores low on scalability, these low scores can be raised by using event-driven architecture 
+- Although it apparently scores low on scalability, these low scores can be raised by using event-driven architecture 
 
-The low score for workflow can also be mitigated by using event-driven architecture. 
+- The low score for workflow can also be mitigated by using event-driven architecture. 
 
  
 
