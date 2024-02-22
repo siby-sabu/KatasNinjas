@@ -9,14 +9,14 @@ The identified actors of Farmacy StayHealthy ecosystem and their actions are as 
 
 | Actor                  | Actions                                                      |
 | ---------------------- | ------------------------------------------------------------ |
-| Patient | * Person whose vitals are continously monitored * |
-| Medical professionals      | * Review vital history, generate reports by filetering them based on time, vital type etc. <br> Receive push notifications on their smartphone incase of emergencies </br> *|
-| Medical Staff              | * Genereate holistic snapshots from  patient's consolidated vitals. Uploads the patient snapshot to MyMedicalData *|
-| Nurse station              | * Consolidated monitoring screen displaying patient vitals refreshed every 5 seconds *|
-| MonitorMe          | * On-premise monitoring appliction.<br />* Monitor the vital signals received from patient. Send the vitals data to Nursing room<br />* Alerts the on-call medical staff and Nursing room system if any issues are detected with patient. Sync data with MonitorThem system |
-| StayHealthy mobile app     | * Mobile app used by medical staff to receive alerts on  patients from MonitorMe system during on-call *  |
-| MonitorThem     | * comprehensive data analytics platform that is used for hospital trend and performance analytics  |
-| MyMedicalData     | * Cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records  |
+| Patient |  Person whose vitals are continously monitored  |
+| Medical professionals      | Review vital history, generate reports by filetering them based on time, vital type etc. <br> Receive push notifications on their smartphone incase of emergencies </br> |
+| Medical Staff              |  Genereate holistic snapshots from  patient's consolidated vitals. Uploads the patient snapshot to MyMedicalData |
+| Nurse station              |  Consolidated monitoring screen displaying patient vitals refreshed every 5 seconds |
+| MonitorMe          |  On-premise monitoring appliction.<br />* Monitor the vital signals received from patient. Send the vitals data to Nursing room<br />* Alerts the on-call medical staff and Nursing room system if any issues are detected with patient. <br />* Sync data with MonitorThem system |
+| StayHealthy mobile app     | Mobile app used by medical staff to receive alerts on  patients from MonitorMe system during on-call |
+| MonitorThem     | comprehensive data analytics platform that is used for hospital trend and performance analytics  |
+| MyMedicalData     | Cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records  |
 
 ## Architecturally Significant Scenarios
 
@@ -26,7 +26,7 @@ The following are the most architecturally significant scenarios/flows, derived 
 
 Patients vitals are captured using 8 sensor devices and send to MonitorMe system
 
-![Scenario-SendPatientVitals](../assets/diagrams/Scenario-SendPatientVitals.png)
+![Scenario-SendPatientVitals](../assets/images/Scenario-SendPatientVitals.png)
 
 ### 02 Monitor patient vitals, sync , analyse and alert medical professional for emergencies
 
@@ -38,7 +38,7 @@ Monitor patient vitals. Sync the data with MonitorThem cloud solution for analys
 
 Nursing station receive patient vitals from max 20 patients. Vitals are refreshed every 5 seconds with next patient data
 
-![Scenario-MursingStation](../assets/diagrams/Scenario-NursingStation.png)
+![Scenario-MursingStation](../assets/images/Scenario-NursingStation.png)
 
 
 ------
