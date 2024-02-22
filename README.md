@@ -13,7 +13,6 @@ Welcome to the O'Reilly Architectural Katas 2024 submission. This is an architec
 1. [Problem Statement](./1.%20Problem%20Statement)
 2. [Solution and Approach](./2.%20Solution%20and%20Approach)
 3. [Views and Perspectives](./3.%20Views%20and%20Perspectives)
-4. [Architecture Decision Records](./4.%20Architecture%20Decision%20Records)
 
 ### Additional Data
 
