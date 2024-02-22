@@ -17,8 +17,8 @@
 
 <img src="../../assets/images/Scenario-HealthRecord.svg" width="1500"/>
 
-## 02. Consolidated Health Record Monitoring at Nurse Station
+## 02. Nurse Station data refresh
 
-1. This scenario explains the flow of consolidated data of patient's vital records fetched from sensors to each nurse station.
+1. In this scenario, Nurse station records updation is demonstrated in two phases. Firstly by writing patient information from Memgraph DataBase (DB) in Cache using Change Data Capture (CDC) tool, cache remains updated to provide quick access to the enquired data. Secondly, a Nurse station service keeps polling data with the help of a scheduler every 5 seconds to retrieve patient(s) information from DB cache and then pushes the vital information to nurse station applications through their API endpoints.
 
-<img src="../../assets/images/scenario3.jpeg" width="1500"/>
+<img src="../../assets/images/Scenario-NurseStation.png" width="1500" />
